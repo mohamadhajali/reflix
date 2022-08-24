@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.fas fa-minus-circle {
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  z-index: 100;
+}
+.actions {
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  top: 0%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.movieDetiles {
+  background-color: #282c34;
+  color: white;
+  font-size: large;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Imagem {
+  width: 400px;
+  height: 400px;
+}
+.NavBar {
+  background-color: #282c34;
+  text-align: left;
+  padding: 20px;
+}
+.users {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 150px;
+
+  grid-gap: 20px;
+  width: 100%;
+}
+.display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.movieDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+  text-decoration: none;
+  color: black;
+  background-color: #282c34;
+}
+.Image {
+  width: 250px;
+  height: 250px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+  text-decoration: none;
+  color: black;
+  background-color: blue;
+}
+.NavBar > a {
+  margin-right: 10px;
+
+  text-decoration: none;
+  color: red;
+}
+
+.NavBar > a:hover {
+  color: #f1c40f;
+}
+
+.NavBar > .logo {
+  float: right;
+  color: #61dbfb; /* Must be slightly transparent for effect to work */
+  font: bold 14px/14px "Sigmar One", sans-serif;
+  margin-left: 5px;
+  text-align: center;
+  text-shadow: 0 3px 7px #000, 0 0 0 #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
